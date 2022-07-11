@@ -10,14 +10,14 @@ public class Primeiroprograma {
 		System.out.println("Hello World" + (a+b));*/
 		
 		Gato gato = new Gato(); 
-		Livros livros = new Livros();
+		Canetas canetas = new Canetas();
 		
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(canetas);
 	}
 }
 
-class Livros {
+class Canetas {
 		private String nome;
 		private String npag;
 }
